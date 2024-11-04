@@ -1,0 +1,173 @@
+
+
+#Contact {
+    font-family: "Raleway", serif;
+    background-color: #0e0f3e;
+    background-image: url('../assets/SeccionContacto/FondoEventos.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 90px 50px;
+    box-sizing: border-box;
+}
+
+.contact_container{
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.titulocontacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header {
+    font-family: "BariolBold";
+    text-align: center;
+    font-size: 35px;
+    color: #4d5bff;
+}
+
+.Bzzzz1,
+.Bzzzz2 {
+    width: 500px; 
+    height: auto;
+}
+
+.Bzzzz1 {
+    position: absolute;
+    left: 150px;
+    transform: translateX(-50%);
+}
+
+.Bzzzz2 {
+    position: absolute;
+    right: 150px;
+    transform: translateX(50%);
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.RedesSociales {
+    flex: 1;
+}
+
+.info {
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.info h2{
+    padding-bottom: 15px;
+}
+
+.info p{
+    text-align: justify;
+}
+
+.LinksRedes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.iconored {
+    text-align: center;
+    flex: 1;
+}
+
+.iconsocial {
+    width: 60px;
+    height: 60px;
+    background-color: #4D5BFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    margin: 0 auto;
+    transition: background-color 0.3s ease;
+    border: 2px solid transparent; 
+    outline: none; 
+}
+
+.iconsocial:hover {
+    background-color: #E52E5E; 
+}
+
+.iconsocial img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+}
+
+.iconored a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.TituloRed {
+    font-size: 1rem;
+    color: #ff4d4d;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.DescripcionRed {
+    font-family: "Raleway", serif;
+    text-align: justify;
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #4d5cff4b;
+    color: #2862ff;
+    border: 2px solid #4d5bff;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.DescripcionRed:hover {
+    background-color: #4d5bff;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.map {
+    flex: 1;
+
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+.map iframe {
+    width: 100%;
+    height: 500px;
+    border-radius: 15px;
+    
+    border: 6px solid #4d5bff;
+}
