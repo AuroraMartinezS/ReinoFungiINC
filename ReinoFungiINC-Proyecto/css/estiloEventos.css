@@ -42,7 +42,8 @@
 
 .tabla{
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 3px;
 }
 
 .tabla thead{
@@ -76,4 +77,5 @@ tr:nth-child(even) td{
     letter-spacing: 0.35px;
     padding: 20px;
     text-align: justify;
+    
 }
