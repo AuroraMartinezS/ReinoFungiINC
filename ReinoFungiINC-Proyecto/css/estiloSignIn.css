@@ -100,6 +100,7 @@ nav a{
     height: 750px;
     background-color: var(--heroSection);
     position: relative;
+
 }
 
 .logoForm{
@@ -112,12 +113,63 @@ nav a{
     position: absolute;
     z-index: 1;
     top: 6%;
-
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     color: var(--navTxt);
     text-align: center;
+    gap: 20px;
+}
+
+#signIn-form{
+    display: flex;
+    flex-direction: column;
 
 }
+
+input{
+    all:unset;
+ }
+
+#namefield, #passwordfield{
+    
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border-bottom: 1.5px solid var(--goldColor);
+    transition: 0.3s ease-in-out;
+}
+
+
+.fields:focus{
+    background-color: #15142975;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.botonSub{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#submit-button{
+    cursor: pointer;
+    padding: 15px 50px;
+    border-radius: 2px;
+    border: 1.5px solid var(--titleColor);
+    background-color: #606573;
+    box-sizing: border-box;
+    color:var(--navTxt);
+    transition: 0.2s ease-in-out;
+}
+
+#submit-button:hover{
+    color:var(--navBar); 
+    transition: 0.2s ease-in-out;
+    background-color: #f6f3a0;
+    border: 1.5px solid var(--mainColor);
+}
+
 
 .Collage{
     position: absolute;
