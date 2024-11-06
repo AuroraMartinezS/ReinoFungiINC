@@ -359,11 +359,12 @@ a {
     font-family: "BariolBold";
     align-items: center;
     font-size: 5vh;
+    color: #06080C;
 }
 
 .horizontalDivider_blog{
     width: 80%;
-    background-color: #05060a;
+    background-color: #06080C;
     height: 3px;
 }
 
@@ -426,7 +427,27 @@ a {
     background: none;
     cursor: pointer;
     border: 2px solid #06080C;
+    transition: all 0.2s ease-in-out;
 }
+
+.card-list .card-link .card-button:hover {
+    color: #ec7662;
+    transition: all 0.2s ease-in-out;
+}
+
+.card-wrapper .swipper-slide-button{
+    color: #06080C;
+}
+
+.card-wrapper .swiper-pagination-bullet{
+    opacity: 0.5;
+    background-color: #06080C;
+}
+
+.card-wrapper .swiper-pagination-bullet-active{
+    opacity: 1;
+}
+
 
 footer{
     width: 100%;
