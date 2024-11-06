@@ -1,16 +1,16 @@
 #Ventas {
     font-family: "Raleway", serif;
-    background-color: #1E1B45;
+    background-color: #1E1C3A;
     background-image: url('../assets/SeccionVentas/FondoEventos.png');
-    background-size: cover; 
+    background-size: contain; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: round; 
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100vh;
-    max-width: 100vw;
+    height: 100%;
+    width: 100%;
     margin: 0;
     position: relative;
     padding: 90px 50px;

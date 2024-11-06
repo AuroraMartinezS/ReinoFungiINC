@@ -7,11 +7,10 @@
     position: relative;
     overflow: hidden;
     padding: 90px 50px 160px 50px;
-    background-color: beige;
-    background: radial-gradient(circle, #e3e3e3 10%, transparent 11%),radial-gradient(circle at bottom left, #e3e3e3 5%, transparent 6%),radial-gradient(circle at bottom right, #e3e3e3 5%, transparent 6%),radial-gradient(circle at top left, #e3e3e3 5%, transparent 6%),radial-gradient(circle at top right, #e3e3e3 5%, transparent 6%);
-        background-size: 6em 6em;
-        background-color: #f5f5dc;
-        opacity: 1
+    background-image: url( '../assets/SVG/PaperBackground.svg' );
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
 
 .paper-bg{
@@ -23,7 +22,6 @@
     height: auto;
     z-index: -1;
 }
-  
 
 .Eventos_title{
     width: 100%;

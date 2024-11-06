@@ -335,53 +335,6 @@ a {
     
 }
 
-.wrapper{
-    position: relative;
-    width: 100%;
-    height: auto;
-}
-
-.wave_Divider {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.wave_Divider svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 113px;
-    
-}
-
-
-.wave_Divider .shape-fill {
-    fill: #F4EDE3;
-}
-
-.one .shape-fill{
-    fill:  #f3f3f3;
-   
- }
-
- .two .shape-fill{
-   fill:  #1E1B45
-}
-
-.three .shape-fill{
-    fill:  #f5f5dc;
- }
- 
- .four .shape-fill{
-    fill:  #0e0f3e
- }
- 
-
 /*SECCION BLOG*/
 
 #blog{
@@ -389,12 +342,12 @@ a {
     height: auto;
     padding: 80px 50px;
     box-sizing: border-box;
-    background-color: #f3f3f3;
-    background: radial-gradient(circle at top right,transparent 10%,#e3e3e3 10%, #e3e3e3 20%, transparent 21%), radial-gradient(circle at left bottom,transparent 10%,#e3e3e3 10%,#e3e3e3 20%, transparent 21%),radial-gradient(circle at top left,transparent 10%,#e3e3e3 10%,#e3e3e3 20%, transparent 21%), radial-gradient(circle at right bottom,transparent 10%,#e3e3e3 10%,#e3e3e3 20%, transparent 21%), radial-gradient(circle at center,#e3e3e3 30%, transparent 31%);
-        background-size: 6em 6em;
-        background-color: #f3f3f3;
-        opacity: 1
+    background-image: url( '../assets/SVG/CircleBackground.svg' );
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
 }
+
 
 .Blog_title{
     width: 100%;
