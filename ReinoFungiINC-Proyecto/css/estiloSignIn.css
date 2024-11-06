@@ -110,9 +110,13 @@ nav a{
 .form-Container{
     width: 100%;
     position: absolute;
-    text-align: center;
     z-index: 1;
-    top: 6%
+    top: 6%;
+
+    box-sizing: border-box;
+    color: var(--navTxt);
+    text-align: center;
+
 }
 
 .Collage{
