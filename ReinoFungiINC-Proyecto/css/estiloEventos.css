@@ -30,8 +30,24 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
     font-family: "BariolBold";
     font-size: 5vh;
+    color: #6b5617;
+}
+
+.Eventos_title h2{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dottedLines{
+ border: none;
+  border-top: 5px dotted #6b5617;
+  color: #fff;
+  background-color: transparent;
+  height: 2px;
+  width: 20vw;
 }
 
 .tableContainer{
@@ -45,7 +61,7 @@
 }
 
 .tabla thead{
-    background-color: #f8ddb9 !important;
+    background-color: #9c802a60;
 }
 
 .tabla thead tr th{
@@ -53,20 +69,21 @@
     font-family: "Raleway", serif;
     font-weight: 700;
     letter-spacing: 0.35px;
-    color: #e69225;
+    color: #937828;
     opacity: 1;
     padding: 12px;
     vertical-align: top;
     
 }
 
+
 tr:nth-child(odd) td{
-    background-color: #fff3e2;
+    background-color: #ffffff;
   }
 
 
 tr:nth-child(even) td{
-    background-color: #f5e4cc;
+    background-color: #b499476c;
   }
 
 
