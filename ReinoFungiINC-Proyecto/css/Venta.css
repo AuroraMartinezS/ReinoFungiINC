@@ -1,0 +1,175 @@
+#Ventas {
+    font-family: "Raleway", serif;
+    background-color: #1E1B45;
+    background-image: url('../assets/SeccionVentas/FondoEventos.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    max-width: 100vw;
+    margin: 0;
+    position: relative;
+    padding: 90px 50px;
+  }
+
+  .Ventas_container {
+    text-align: center;
+    max-width: 100vw;
+  }
+
+  .Ventas_container h1 {
+    font-family: "BariolBold";
+    font-size: 50px;
+    color: #5D6EE6;
+    position: relative;
+    margin-bottom: 0;
+  }
+
+  .Ventas_container h2 {
+    color: #8280FF;
+    margin-top: 0;
+    font-size: 25px;
+  }
+
+  .rayo1, .rayo2 {
+    position: absolute;
+    top: -20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .rayo1 {
+    left: 200px;
+  }
+
+  .rayo2 {
+    right: 200px;
+  }
+
+  .ListaProductos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+
+  .Productos {
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  .ImagenProducto {
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+    padding-top: 150px;
+    border-radius: 10px;
+    background-size: cover;
+    box-shadow: 0 10px 10px #E93B81;
+    position: relative;
+  }
+
+  .InfoProducto {
+    margin-top: 20px;
+  }
+
+  .NombreProducto {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+
+  .PrecioProducto {
+    font-size: 15px;
+    color: #E93B81;
+  }
+
+  .TiendaOficial {
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: 2px solid #5D6EE6;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #5D6EE6;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "Raleway", serif;
+    font-weight: 600;
+  }
+
+  .TiendaOficial:hover {
+    background-color: #5D6EE6;
+    color: white;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Raleway", serif;
+  }
+  
+  .contenidomodal {
+    background-color: #1E1B45;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 600px;
+    color: #fff;
+  }
+  
+  .contenidomodal h3 {
+    color: #5D6EE6;
+  }
+  
+  .contenidomodal p {
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .Imagenesproductos {
+    background-color: #666;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .cerrar {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .comprarproducto {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5D6EE6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-family: "Raleway", serif;
+  }
+  
+  .comprarproducto:hover {
+    background-color: #8280FF;
+  }
