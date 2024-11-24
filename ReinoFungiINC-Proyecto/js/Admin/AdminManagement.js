@@ -37,7 +37,7 @@ document.getElementById('btnEventos').addEventListener('click', () => {
 
 
 /*FUNCIÓN PARA VALIDAR Y REGISTRAR LOS DATOS EN FIREBASE */
-const btnSubir = document.querySelector('.modal-footer .btn-primary');
+const btnSubir = document.querySelector('.modal-footer .aceptarEvent');
 
 btnSubir.addEventListener('click', async (e)=> {
   e.preventDefault();
